@@ -1,0 +1,16 @@
+#section-2 {
+    padding: 30px 100px;
+    background-color: #ec80Fd2d;
+}
+
+.section-2__info {
+    display: flex;
+    margin: 50px 0px;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.title-pink {
+    color: #ED80FD;
+}

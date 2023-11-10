@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/header-styles.css">
+    <link rel="stylesheet" href="./styles/common-styles.css">
+    <link rel="stylesheet" href="./styles/banner-styles.css">
+    <link rel="stylesheet" href="./styles/section-1-styles.css">
+    <link rel="stylesheet" href="./styles/section-2-style.css">
+    <link rel="stylesheet" href="./styles/footer-styles.css">
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
     <title>Document</title>
 </head>
 <body>
@@ -24,70 +31,71 @@
                <img src="./public/image/header-world.png" alt="header world">
                <span>Español</span>
            </div>
-             <button>Ingrese</button>
+             <button>Ingresar</button>
         </div>
     </header>
     <main>
         <section id="banner">
-            <div class=" banner_info">
-                <div class="banner_text">
+            <div class="banner__info">
+                <div class="banner__texts">
                     <h1>Aprobecha la era digital, tomando clases en linia.</h1>
                     <p>Toma los cursos más importantes de tecnología con clases en línea, donde podrás tener acceso a contenido actualizado desde la comodidad de tu casa y a tu ritmo</p>
                 </div>
                 <div class="banner_button">
-                    <button>saber mas</button>
-                    <button>planes</button>
+                    <button class="button--orange">saber mas</button>
+                    <button class="button--transparent">planes</button>
                 </div>
             </div>
             <img src="./public/image/banner-online.png" alt="banner online">
-
         </section>
-        <section id="section-1"></section>
-        <div class="section-1__info">
-          <h2>Por qué elegirnos a nosotros</h2>
-          <p>Somos una universidad en constante actualizacion y nose gusta el cambio, te enseñamos tecnologías contemporaneas</p>
-        </div>
 
-        <div class="section-1__card">
-          <img src="./public/image/section1-education.png" alt="eduction" width="120px" height="120px">
-          <h3>Virtualidad y Educacion</h3>
-        </div>
+       <section id="section-1">
+            <div class="section-1__info">
+                <h2>Por qué elegirnos a nosotros</h2>
+                <p>Somos una universidad en constante actualizacion y nose gusta el cambio, te enseñamos tecnologías contemporaneas</p>
+            </div>
 
-        <div class="section-2__card">
-           <h3>Alcance de Objetivos</h3>
-            <img src="./public/image/section1-goals.png"  alt="goals" width="120px" height="120px">
-        </div>
+            <div class="section-1__card">
+                <img src="./public/image/section1-education.png" alt="eduction" width="120px" height="120px">
+                <h3>Virtualidad y Educacion</h3>
+            </div>
 
-        <div class="section-3__card">
-            <img src="./public/image/section1-teach.png" alt="teach" width="120px" height="120px">
-            <h3>Clases Inclusivas</h3>
-        </div>
+            <div class="section-1__card section-1__card-down">
+                <h3>Alcance de Objetivos</h3>
+                <img src="./public/image/section1-goals.png"  alt="goals" width="120px" height="120px">
+            </div>
 
+            <div class="section-1__card">
+               <img src="./public/image/section1-teach.png" alt="teach" width="120px" height="120px">
+               <h3>Clases Inclusivas</h3>
+            </div>
+       </section>
 
         <section id="section-2">
-            <div class="section-1__info">
-                <img src="./public/image/section2-tools.png" alt="" width="500px" height="350px">
-
-                <div>
-                    <h2>Brindamos herramientas para que tu aprendizaje</h2>
-                    <h2>sea eferctivo</h2>
-                    <p>Las herramientas digitales son nuestras aliadas y aprovechamos cada una de estas para brindarte
-                     la mejor experiencia</p>
-                    <button>Saber Mas</button>
-                </div>
-
-            </div>
-                <div>
-                    <div>
-                        <h2>Educacion pensando en</h2>
-                        <h2>objetivos alcanzados</h2>
-                        <p>Es importante para nosotros que las metas de cada uno de nuestros estudiantes sean alcanzadas</p>
-                        <button>Saber Mas</button>
-                    </div>
-                </div>
-            <div class="section-2__info">
-                 <img src="./public/image/section2-goals.png" alt="" width="500px" height="350px">
-            </div>
+        
+               <div class="section-2__info">
+                   <img src="./public/image/section2-tools.png" alt="tools" width="500px" height="350px">
+                
+                       <div>
+                         <h2>Brindamos herramientas para que tu aprendizaje</h2>
+                         <h2 class="title-pink">sea eferctivo</h2>
+                         <p>Las herramientas digitales son nuestras aliadas y aprovechamos cada una de estas para brindarte
+                            la mejor experiencia</p>
+                          <button class="button--orange">Saber Mas</button>
+                        </div>
+               </div> 
+                
+               <div  class="section-2__info">
+                      <div>
+                           <h2>Educacion pensando en</h2>
+                           <h2 class="title-pink">objetivos alcanzados</h2> 
+                            <p>Es importante para nosotros que las metas de cada uno de nuestros estudiantes sean alcanzadas</p>
+                            <button class="button--orange">Saber Mas</button>
+                       </div>
+                       <div>
+                           <img src="./public/image/section2-goals.png" alt="goals" width="500px" height="350px">
+                       </div>
+               </div>   
             
         </section>
 
@@ -127,7 +135,7 @@
                     <tr>
                         <td> <a href="">Atenea</a> </td>
                         <td> <a href="">Medios de pago</a> </td>
-                        <td> <a href="">clle 129 crr 24</a> </td>
+                        <td> <a href="">cll. 13 # 31 -75</a> </td>
                     </tr>
                     <tr>
                         <td> <a href="">Administracion</a> </td>
@@ -136,12 +144,9 @@
                 </tbody>
             </table>
            
-
-
         </div>
 
     </footer>
-
 
 </body> 
 </html>
