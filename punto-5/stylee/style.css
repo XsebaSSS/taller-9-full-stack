@@ -1,0 +1,40 @@
+p {
+    margin-left: 300px;
+}
+u {
+    color: green;
+    text-decoration: underline;
+}
+.line {
+
+    
+    text-decoration: overline underline;
+
+    
+}
+
+.red  {
+    color: red;    
+}
+
+.black {
+    font-size: 30px;
+    font-weight: 1000;
+    color: black;
+}
+
+
+
+.blue {
+    color: blue;
+    font-weight: 900;
+    font-size: 18px;
+    
+}
+
+
+.red-sub {
+    color: red;
+    font-weight: 900;
+    font-size: 18px;
+}

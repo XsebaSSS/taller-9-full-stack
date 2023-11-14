@@ -1,0 +1,21 @@
+nav {
+    background-color:  rgb(216, 137, 236);
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.nav-boton {
+
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.nav-boton:hover { 
+    background-color: blue;
+    padding: 10px;
+    
+}
